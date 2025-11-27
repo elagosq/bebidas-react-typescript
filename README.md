@@ -1,8 +1,10 @@
 
 # App web Busqueda de bebidas
 
-Proyecto de app web para la búsqueda de bebidas. En el caso de encontrar la búsqueda, se listará la información encontrada, y al seleccionar un item (bebida), se despliega una modal con el detalle de la información y poder presionar el botón favorito y se mostrará el item seleccionado en la pantalla favoritos.
-## Librerias de Buscador de bebidas
+Proyecto de app web para la búsqueda de bebidas. En el caso de encontrar la búsqueda, se listará la información de la receta encontrada, y al seleccionar un ítem (bebida), se despliega una modal con el detalle de la información y poder presionar el botón favorito, y se mostrará el ítem seleccionado en la pantalla favoritos y se agregó una pantalla para poder generar recetas por IA.
+
+
+## Pila de tecnología
 
 -  react 18.2.0
 -  react-dom 18.2.0
@@ -12,30 +14,45 @@ Proyecto de app web para la búsqueda de bebidas. En el caso de encontrar la bú
 -  axios
 -  zustand
 -  tailwindcss
+-  @openrouter/ai-sdk-provider
 -  react-router-dom
 -  @headlessui/react
 -  @heroicons/react 
 
 
-
-
-##  App web Buscador de bebidas
+##  Pantalla de App Web Buscador de bebidas
 
 1.- Formulario de buscador de bebidas
 &nbsp;
-
-![buscador](https://bitbucket.org/framweb/bebidas-react-typescript/raw/7b3c524377670c42bd8245c971fd4b3a16587771/images/1.-Busqueda%20.png)
+<p align="center">
+ <img src="imagenes/1.-Busqueda.png" width="500"/>
+</p>
 
 2.- Listado del resultado de la busqueda de la bebida
-
-![listadobebidas](https://bitbucket.org/framweb/bebidas-react-typescript/raw/7b3c524377670c42bd8245c971fd4b3a16587771/images/2.-Listado%20.png)
+&nbsp;
+<p align="center">
+ <img src="imagenes/2.-Listado.png" width="500"/>
+</p>
 
 3.- Listado en la pagina favoritos
-
-![favoritos](https://bitbucket.org/framweb/bebidas-react-typescript/raw/7b3c524377670c42bd8245c971fd4b3a16587771/images/3..Favoritos.png)
-
+&nbsp;
+<p align="center">
+ <img src="imagenes/3.-Favoritos.png" width="500"/>
+</p>
 
 4.- Detalle bebida seleccionada
 
-![detalle](https://bitbucket.org/framweb/bebidas-react-typescript/raw/7b3c524377670c42bd8245c971fd4b3a16587771/images/4.-Detalle.png)# bebidas-react-typescript
-# bebidas-react-typescript
+<p align="center">
+ <img src="imagenes/4.-Detalle.png" width="500"/>
+</p>
+
+5.- Pantalla para generar recetas por ia
+
+<p align="center">
+ <img src="imagenes/5.-Generar receta con ia.png" width="500"/>
+</p>
+
+
+
+
+
