@@ -1,4 +1,3 @@
-import axios from "axios"
 import { CategoriesAPIResponseSchema, DrinksAPIResponse, RecipeAPIResponseSchema } from "../utils/recipes-schema"
 import { Drink, SearchFilter } from "../types"
 import api from "../lib/axios"
